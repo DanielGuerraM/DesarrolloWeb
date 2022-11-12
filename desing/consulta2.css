@@ -1,0 +1,70 @@
+:root{
+    --extralight: 200;
+    --regular: 400;
+    --bold: 700;
+  }
+  
+  html{
+    font-size: 10px; /*10px = 1rem*/
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1{
+    font-size: 3.5rem;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  .consulta-titulo{
+    font-size: 2.8rem;
+  }
+
+  p,
+  ul{
+    font-size: 1.8rem;
+  }
+
+  .contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  .contenedor-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
+  @media(max-width: 720px){
+    .contenedor-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 10rem;
+      }
+  }
+
+  .footer{
+    margin-top: 15rem;
+    text-align: center;
+  }
+
+  .boton{
+    font-size: 3rem;
+    margin: 0 auto;
+    background-color: #24EEAE;
+    padding: 2rem;
+    border-radius: 1.8rem;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .boton:hover{
+    background-color: #1CD89C;
+  }

@@ -1,0 +1,104 @@
+:root{
+  --extralight: 200;
+  --regular: 400;
+  --bold: 700;
+}
+
+html{
+  font-size: 10px; /*10px = 1rem*/
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFFFEB;
+    color: black;
+    font-family: Verdana;
+    font-size: 1.6rem;
+  }
+  img{
+    width:100%; 
+  }
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: contain;
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+  .foto{
+    border-radius: 36rem; /*borde curveado*/
+    width: 25rem;
+  }
+
+  h1{
+    font-weight: var(--extralight);
+    font-size: 4rem;
+  }
+
+  span{
+    font-weight: var(--bold);
+  }
+ 
+
+  .contenedor-header,
+  .contenedor-info,
+  .contenedor-trabajos,
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  @media(max-width: 720px){
+    .contenedor-header,
+    .contenedor-info,
+    .contenedor-trabajos,
+    .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 3rem;
+      gap: 3rem;
+    }
+  }
+
+  .contenedor-articulo{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
+    background-color: #A1A197;
+    border-radius: 2.5rem;
+    padding: 2.5rem;
+  }
+  .contenedor-trabajo{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
+    background-color: #63E33D;
+    border-radius: 2.5rem;
+    margin: 1.5rem;
+    padding: 2.5rem;
+
+  }
+  .caja4{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 30%;
+    background-color: rgba(230, 232, 10,0.8);
+    border-radius: 2.5rem;
+    margin: 1.5rem;
+    padding: 2.5rem;
+  }
+  .logos{
+    width: 45%;
+  }

@@ -1,0 +1,99 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 2rem;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+.contenedor{
+    width: 120rem;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-sopa{
+    display: grid;
+    grid-template-columns: repeat(15, 3rem);
+}
+
+.contenedor-sopa p{
+    margin: 0.3rem;
+
+}
+
+.letra{
+    text-align: center;
+    border: 1px solid #686868;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-palabras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista{
+    padding-left: 0;
+    list-style: none;
+}
+
+.palabra1:hover{
+    cursor:pointer;
+}
+
+.palabra2:hover{
+    cursor:pointer;
+}
+
+.palabra3:hover{
+    cursor:pointer;
+}
+
+.palabra4:hover{
+    cursor:pointer;
+}
+
+.palabra5:hover{
+    cursor:pointer;
+}
+
+.palabra6:hover{
+    cursor:pointer;
+}
+
+.palabra7:hover{
+    cursor:pointer;
+}
+
+.palabra8:hover{
+    cursor:pointer;
+}
+
+.palabra9:hover{
+    cursor:pointer;
+}
+
+.palabra10:hover{
+    cursor:pointer;
+}
+
+.palabra-selected{
+    background-color: cornflowerblue;
+}
